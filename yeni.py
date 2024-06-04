@@ -1,3 +1,5 @@
+# Hocam normalde google colabtan yüklicektim fakat ordan git hupa bağlayamadım bende normal yükledim 
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -10,6 +12,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 
+# Link bazen güncelliğini kaybediyor çalıştırmadan önce güncellemek lazım 
 # Veri setini URL'den yükledik
 url = "https://s3.cloud.ngn.com.tr/clu3-40/course/461189/activity/479719/veri-seti.txt?AWSAccessKeyId=ALMS%3aalms-storage%40advancity.com.tr&Expires=1717486637&Signature=ylSwNCfK7m2TPAPF9ih6dnXfuzY%3d"
 data = pd.read_csv(url, sep='\t')  # Sütunları tab ile ayır
